@@ -1,1 +1,12 @@
-this is text file
+<button onclick="showHello()">click here</button>
+
+<div id="tab">
+
+</div>
+<script>
+
+function showHello (){
+  // document.write("hello,hero");
+  document.getElementById("tab").innerHTML="hello";
+}
+
